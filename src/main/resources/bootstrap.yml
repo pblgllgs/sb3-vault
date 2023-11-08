@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    vault:
+      application-name: sb3-vault
+      host: localhost
+      port: 8200
+      scheme: http
+      authentication: TOKEN
+      token: root-token
